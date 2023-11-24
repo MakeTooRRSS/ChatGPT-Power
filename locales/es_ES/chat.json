@@ -1,0 +1,80 @@
+{
+  "agentDefaultMessage": "Hola, me llamo **{{name}}**. Puedes empezar a chatear conmigo ahora mismo o ir a [Configuración del agente](/chat/settings#session={{id}}) para mejorar mi información.",
+  "agentDefaultMessageWithSystemRole": "Hola, me llamo**{{name}}**, {{systemRole}}. ¡Empecemos la conversación!",
+  "backToBottom": "Ir a Últimos mensajes",
+  "clearCurrentMessages": "Borrar mensajes de la sesión actual",
+  "confirmClearCurrentMessages": "Está a punto de borrar los mensajes de la sesión actual. Una vez borrados, no podrán recuperarse. Confirme la operación.",
+  "confirmRemoveSessionItemAlert": "Está a punto de eliminar este agente. Una vez borrado, no se puede recuperar. Por favor, confirme su operación.",
+  "defaultAgent": "Agente personalizado",
+  "defaultSession": "Agente personalizado",
+  "historyRange": "Rango de historia",
+  "inbox": {
+    "defaultMessage": "Hola, soy tu agente inteligente. Puedes hacerme cualquier pregunta y haré todo lo posible por responderte. Si necesitas un agente más profesional o personalizado, puedes hacer clic en `+` para crear un agente personalizado.",
+    "desc": "Active los grupos cerebrales y despierte el pensamiento. Su agente inteligente está aquí para comunicarse con usted acerca de todo.",
+    "title": "Chatear al azar"
+  },
+  "newAgent": "Crear nuevo agente",
+  "noDescription": "No hay descripción disponible",
+  "pin": "Pin",
+  "pinOff": "Sin pin",
+  "regenerate": "Regenerar",
+  "roleAndArchive": "Roles y archivos",
+  "searchAgentPlaceholder": "Agentes de búsqueda y conversaciones...",
+  "send": "Enviar",
+  "sendPlaceholder": "Introducir el contenido del chat...",
+  "sessionList": "Lista de agentes",
+  "shareModal": {
+    "download": "Descargar captura de pantalla",
+    "imageType": "Formato de imagen",
+    "screenshot": "Captura de pantalla",
+    "settings": "Ajustes de exportación",
+    "shareToShareGPT": "Generar enlace para compartir ShareGPT",
+    "withBackground": "Incluir imagen de fondo",
+    "withFooter": "Incluir pie de página",
+    "withPluginInfo": "Incluir información del plugin",
+    "withSystemRole": "Incluir configuración del rol del agente"
+  },
+  "stop": "Detener",
+  "stt": {
+    "action": "Entrada de voz",
+    "loading": "Reconociendo...",
+    "prettifying": "Embellecer..."
+  },
+  "temp": "Temporal",
+  "tokenDetail": "Ajuste de roles: {{systemRoleToken}} · Historia del chat: {{chatsToken}}",
+  "tokenTag": {
+    "overload": "Límite superado",
+    "remained": "Restante",
+    "used": "Usado"
+  },
+  "topic": {
+    "confirmRemoveTopic": "Está a punto de borrar este tema. Una vez borrado, no se puede recuperar. Por favor, proceda con precaución.",
+    "defaultTitle": "Tema por defecto",
+    "saveCurrentMessages": "Guardar la sesión actual como tema",
+    "searchPlaceholder": "Buscar temas...",
+    "deleteAll": "Eliminar todos los temas",
+    "deleteUnstarred": "Eliminar temas no destacados",
+    "title": "Lista de temas",
+    "confirmRemoveAll": "Todos los temas se eliminarán y no se podrán recuperar. Proceda con precaución.",
+    "confirmRemoveUnstarred": "Todos los temas no destacados se eliminarán y no se podrán recuperar. Proceda con precaución.",
+    "removeAll": "Eliminar todos los temas",
+    "removeUnstarred": "Eliminar temas no destacados",
+    "openNewTopic": "Abrir un nuevo tema"
+  },
+  "translate": {
+    "clear": "Traducción clara",
+    "action": "Traducir"
+  },
+  "translateTo": "Traducir",
+  "tts": {
+    "action": "Texto a voz",
+    "clear": "Discurso claro"
+  },
+  "updateAgent": "Actualizar información del agente",
+  "upload": {
+    "actionTooltip": "Cargar imagen",
+    "dragDesc": "Arrastre y suelte archivos aquí, admite la carga de varias imágenes. Mantenga presionada la tecla Mayús para enviar imágenes directamente",
+    "dragTitle": "Cargar imagen"
+  },
+  "warp": "Salto de línea"
+}

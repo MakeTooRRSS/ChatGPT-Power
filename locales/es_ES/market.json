@@ -1,0 +1,30 @@
+{
+  "addAgent": "Añadir agente",
+  "guide": {
+    "func1": {
+      "desc1": "Introduzca la página de configuración que desea enviar al asistente haciendo clic en el icono de configuración situado en la esquina superior derecha de la ventana de chat.",
+      "desc2": "Pulse el botón 'Enviar al mercado auxiliar' en la esquina superior derecha.",
+      "tag": "Metodo 1",
+      "title": "Enviar a través de ChatGPT Power"
+    },
+    "func2": {
+      "button": "Ir al repositorio Github Assistant",
+      "desc": "Si quieres añadir el asistente al índice, crea una entrada en el directorio de plugins usando agent-template.json o agent-template-full.json, escribe una breve descripción y las etiquetas apropiadas, y luego crea un pull request.",
+      "tag": "Metodo 2",
+      "title": "Enviar a través de Github"
+    }
+  },
+  "search": {
+    "placeholder": "Buscar nombre de agente, descripción o palabras clave..."
+  },
+  "sidebar": {
+    "comment": "Comentarios",
+    "prompt": "Prompts",
+    "title": "Detalles del agente"
+  },
+  "submitAgent": "Enviar agente",
+  "title": {
+    "recentSubmits": "Envíos recientes",
+    "allAgents": "Todos los agentes"
+  }
+}

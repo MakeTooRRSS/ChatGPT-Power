@@ -1,0 +1,297 @@
+{
+  "danger": {
+    "clear": {
+      "action": "Borrar ahora",
+      "confirm": "¿Confirmar el borrado de todos los datos del chat?",
+      "desc": "Borrar todos los datos de la sesión",
+      "success": "Se han borrado todos los mensajes de sesión",
+      "title": "Borrar todos los mensajes de sesión"
+    },
+    "reset": {
+      "action": "Restablecer ahora",
+      "confirm": "¿Confirmar el restablecimiento de todos los ajustes?",
+      "currentVersion": "Versión actual",
+      "desc": "Restablecer todos los ajustes a los valores predeterminados",
+      "title": "Restablecer todos los ajustes"
+    }
+  },
+  "header": {
+    "global": "Configuración Global",
+    "session": "Configuración de la sesión",
+    "sessionWithName": "Configuración de la sesión · {{name}}"
+  },
+  "llm": {
+    "AzureOpenAI": {
+      "endpoint": {
+        "desc": "Este valor se puede encontrar en la sección Claves y puntos finales al comprobar un recurso en un sitio Azure.",
+        "placeholder": "https://docs-test-001.openai.azure.com",
+        "title": "Azure API URL"
+      },
+      "models": {
+        "desc": "Modelos soportados",
+        "title": "Lista de modelos"
+      },
+      "title": "Configuración de Azure OpenAI",
+      "token": {
+        "desc": "Este valor se puede encontrar en la sección Claves y puntos finales al comprobar un recurso en un sitio Azure. Puede utilizar KEY1 o KEY2",
+        "placeholder": "Azure Clave API",
+        "title": "CLave API"
+      }
+    },
+    "OpenAI": {
+      "azureApiVersion": {
+        "desc": "Versión de la API de Azure en formato AAAA-MM-DD, comprobar [última versión](https://learn.microsoft.com/zh-cn/azure/ai-services/openai/reference#chat-completions)",
+        "fetch": "Obtener lista",
+        "title": "Azure API versión"
+      },
+      "check": {
+        "button": "Comprobar",
+        "desc": "Compruebe que la clave Api y la dirección del servidor proxy se han rellenado correctamente.",
+        "pass": "Conexión correcta",
+        "title": "Comprobación de la conectividad"
+      },
+      "endpoint": {
+        "desc": "Debe contener http(s):// además de la dirección por defecto.",
+        "placeholder": "https://api.openai.com/v1",
+        "title": "Dirección proxy API"
+      },
+      "models": {
+        "count": "Total de modelos admitidos: {{count}}",
+        "desc": "Modelos compatibles",
+        "fetch": "Obtener la lista de modelos",
+        "notSupport": "Azure OpenAI no admite actualmente la visualización de listas de modelos",
+        "notSupportTip": "Asegúrese de que el nombre del despliegue coincide con el nombre del modelo",
+        "refetch": "Obtener la lista de modelos",
+        "title": "Lista de modelos"
+      },
+      "title": "COnfiguración OpenAI",
+      "token": {
+        "desc": "Utiliza tu propia clave OpenAI",
+        "placeholder": "Clave API de OpenAI",
+        "title": "Clave API"
+      },
+      "useAzure": {
+        "desc": "Uso de los servicios OpenAI de Azure",
+        "fetch": "Obtener lista",
+        "title": "Azure OpenAI",
+        "serverConfig": "El administrador ha habilitado Azure OpenAI en el lado del servidor, el cambio está prohibido"
+      },
+      "customModelName": {
+        "desc": "Añada modelos personalizados, separe varios modelos con comas (,)",
+        "placeholder": "modelo1,modelo2,modelo3",
+        "title": "Modelo personalizado"
+      }
+    },
+    "waitingForMore": "<1>Está previsto el acceso a otros modelos</1>,así que permanezca atent@ ✨"
+  },
+  "settingAgent": {
+    "avatar": {
+      "title": "Avatar"
+    },
+    "backgroundColor": {
+      "title": "Color de fondo"
+    },
+    "description": {
+      "placeholder": "Introduzca la descripción del agente",
+      "title": "Descripción del Agente"
+    },
+    "name": {
+      "placeholder": "Introduzca el nombre del agente",
+      "title": "Nombre"
+    },
+    "prompt": {
+      "placeholder": "Por favor, introduzca el rol",
+      "title": "Función"
+    },
+    "tag": {
+      "placeholder": "Por favor, introduzca la etiqueta",
+      "title": "Etiqueta"
+    },
+    "title": "Información para agentes"
+  },
+  "settingChat": {
+    "chatStyleType": {
+      "title": "Estilo de ventana de chat",
+      "type": {
+        "chat": "Modo de chat",
+        "docs": "Modo de documento"
+      }
+    },
+    "compressThreshold": {
+      "desc": "Cuando los mensajes del historial sin comprimir superen este valor, se realizará la compresión",
+      "title": "Umbral de compresión de la longitud de los mensajes históricos"
+    },
+    "enableCompressThreshold": {
+      "title": "Umbral de compresión de la longitud de los mensajes históricos"
+    },
+    "enableHistoryCount": {
+      "alias": "Ilimitado",
+      "limited": "Sólo incluye {{number}} mensajes de sesión",
+      "title": "Limitar el recuento de mensajes del historial",
+      "unlimited": "Número ilimitado de mensajes históricos"
+    },
+    "historyCount": {
+      "desc": "Número de mensajes de historial transportados en cada solicitud",
+      "title": "Historial adjunto Recuento de mensajes"
+    },
+    "inputTemplate": {
+      "desc": "El último mensaje del usuario se rellenará en esta plantilla",
+      "placeholder": "{{text}} se sustituirá por información de entrada en tiempo real",
+      "title": "Preprocesamiento de las entradas del usuario"
+    },
+    "title": "Configuración del chat",
+    "autoCreateTopicThreshold": {
+      "title": "Umbral de mensajes",
+      "desc": "Crear automáticamente un tema cuando el número actual de mensajes supere este valor"
+    },
+    "enableAutoCreateTopic": {
+      "title": "Activar la creación automática de temas",
+      "desc": "Si crear automáticamente un tema durante la conversación, sólo efectivo en temas temporales."
+    }
+  },
+  "settingModel": {
+    "enableMaxTokens": {
+      "title": "Activar el límite de respuesta única"
+    },
+    "frequencyPenalty": {
+      "desc": "Cuanto mayor sea el valor, más probabilidades habrá de reducir las palabras repetidas",
+      "title": "Frecuencia Penalización"
+    },
+    "maxTokens": {
+      "desc": "Número máximo de fichas utilizadas en una sola interacción",
+      "title": "Límite de respuesta única"
+    },
+    "model": {
+      "desc": "Modelo de ChatGPT",
+      "list": {
+        "gpt-3.5-turbo": "GPT 3.5",
+        "gpt-3.5-turbo-16k": "GPT 3.5 (16K)",
+        "gpt-4": "GPT 4",
+        "gpt-4-32k": "GPT 4 (32K)"
+      },
+      "title": "Modelo"
+    },
+    "presencePenalty": {
+      "desc": "Cuanto mayor sea el valor, más probable es que se amplíe a nuevos temas",
+      "title": "Frescura del tema"
+    },
+    "temperature": {
+      "desc": "Cuanto mayor sea el valor, más aleatoria será la respuesta",
+      "title": "Aleatoriedad",
+      "titleWithValue": "Aleatoriedad {{value}}"
+    },
+    "title": "Ajustes del modelo",
+    "topP": {
+      "desc": "Similar a la aleatoriedad, pero no cambia junto con la aleatoriedad",
+      "title": "Muestreo de núcleos"
+    }
+  },
+  "settingOpenAI": {
+    "endpoint": {
+      "desc": "Debe incluir http(s)://, además de la dirección por defecto",
+      "placeholder": "https://api.openai.com/v1",
+      "title": "Dirección del proxy API"
+    },
+    "title": "Configuración de OpenAI",
+    "token": {
+      "desc": "Utiliza tu propia clave OpenAI",
+      "placeholder": "Clave API de OpenAI",
+      "title": "Clave API"
+    }
+  },
+  "settingPlugin": {
+    "title": "Lista de plugins",
+    "add": "Añadir",
+    "addTooltip": "Añadir plugin personalizado",
+    "config": "{{id}} Configuración del plugin",
+    "clearDeprecated": "Eliminar plugins obsoletos",
+    "settings": "Configuración del mercado de plugins"
+  },
+  "settingSystem": {
+    "accessCode": {
+      "desc": "El acceso cifrado ha sido habilitado por el administrador",
+      "placeholder": "Introduzca la contraseña de acceso",
+      "title": "Contraseña de acceso"
+    },
+    "title": "Configuración del sistema"
+  },
+  "settingTTS": {
+    "showAllLocaleVoice": {
+      "desc": "Si se desactiva, sólo se mostrarán las voces del idioma actual.",
+      "title": "Mostrar todas las locuciones"
+    },
+    "sttService": {
+      "desc": "La opción 'navegador' se refiere al servicio nativo de reconocimiento de voz del navegador",
+      "title": "Servicio de voz a texto"
+    },
+    "title": "Servicios de voz",
+    "ttsService": {
+      "desc": "Si utiliza el servicio de conversión de texto a voz OpenAI, asegúrese de que el servicio de modelo OpenAI está activado.",
+      "title": "Servicio de texto a voz"
+    },
+    "voice": {
+      "title": "Voces de texto a voz",
+      "desc": "Seleccione una voz para el asistente actual, los diferentes servicios TTS admiten diferentes voces",
+      "preview": "Vista previa Voz"
+    },
+    "openai": {
+      "sttModel": "Modelo de reconocimiento de voz OpenAI",
+      "ttsModel": "Modelo de conversión de texto a voz de OpenAI"
+    },
+    "stt": "Configuración del reconocimiento de voz",
+    "sttLocale": {
+      "desc": "El idioma de la entrada de voz, esta opción puede mejorar la precisión del reconocimiento de voz",
+      "title": "Lenguaje de reconocimiento de voz"
+    },
+    "sttPersisted": {
+      "desc": "Si está activado, el reconocimiento de voz no finalizará automáticamente y será necesario pulsar manualmente el botón de finalización.",
+      "title": "Finalizar manualmente el reconocimiento de voz"
+    },
+    "tts": "Ajustes de texto a voz",
+    "sttAutoStop": {
+      "desc": "Si se desactiva, el reconocimiento de voz no se detendrá automáticamente y será necesaria la intervención manual para finalizar el proceso.",
+      "title": "Finalización del reconocimiento automático de voz"
+    }
+  },
+  "settingTheme": {
+    "avatar": {
+      "title": "Avatar"
+    },
+    "fontSize": {
+      "desc": "Tamaño de letra del contenido del chat",
+      "title": "Tamaño de letra"
+    },
+    "lang": {
+      "title": "Ajustes de idioma",
+      "autoMode": "Sistema de seguimiento"
+    },
+    "neutralColor": {
+      "desc": "Escala de grises personalizada para diferentes tendencias de color",
+      "title": "Color neutro"
+    },
+    "primaryColor": {
+      "desc": "Color del tema personalizado",
+      "title": "Tema Color"
+    },
+    "themeMode": {
+      "auto": "Automático",
+      "dark": "Oscuro",
+      "light": "Claro",
+      "title": "Tema"
+    },
+    "title": "Configuración del tema"
+  },
+  "submitAgentModal": {
+    "tooltips": "Cuota al mercado auxiliar",
+    "button": "Presentar asistente",
+    "identifier": "Identificador",
+    "metaMiss": "Por favor, complete la información del asistente antes de enviarla. Debe incluir nombre, descripción y etiquetas.",
+    "placeholder": "Introduzca un identificador único para el asistente, como desarrollo web."
+  },
+  "tab": {
+    "agent": "Agente por defecto",
+    "common": "Ajustes comunes",
+    "llm": "API LLM personalizada",
+    "tts": "Servicios de voz"
+  }
+}

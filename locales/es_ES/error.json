@@ -1,0 +1,51 @@
+{
+  "pluginSettings": {
+    "desc": "Complete la siguiente configuración para empezar a utilizar este plugin",
+    "title": "{{name}} Configuración del plugin"
+  },
+  "response": {
+    "400": "Lo sentimos, el servidor no entiende su solicitud. Por favor, asegúrese de que los parámetros de su petición son correctos",
+    "401": "Lo sentimos, el servidor ha rechazado su solicitud, posiblemente debido a permisos insuficientes o autenticación no válida",
+    "403": "Lo sentimos, el servidor ha rechazado su solicitud. No tiene permiso para acceder a este contenido",
+    "404": "Lo sentimos, el servidor no puede encontrar la página o el recurso que ha solicitado. Por favor, asegúrese de que su URL es correcta",
+    "405": "Lo sentimos, el servidor no admite el método de solicitud que está utilizando. Por favor, asegúrese de que su método de solicitud es correcto",
+    "429": "Lo sentimos, su solicitud es demasiado frecuente y el servidor está un poco cansado. Vuelva a intentarlo más tarde",
+    "500": "Lo sentimos, el servidor parece estar experimentando algunas dificultades y es temporalmente incapaz de completar su solicitud. Por favor, inténtelo de nuevo más tarde",
+    "502": "Lo sentimos, el servidor parece estar perdido y es temporalmente incapaz de proporcionar servicio. Por favor, inténtelo de nuevo más tarde",
+    "503": "Lo sentimos, el servidor no puede procesar actualmente su solicitud, posiblemente debido a sobrecarga o mantenimiento. Por favor, inténtelo de nuevo más tarde",
+    "504": "Lo sentimos, el servidor no ha recibido respuesta del servidor de origen. Vuelva a intentarlo más tarde",
+    "InvalidAccessCode": "La contraseña es incorrecta o está vacía. Introduzca la contraseña de acceso correcta o añada una clave de API de OpenAI personalizada.",
+    "OpenAIBizError": "Error al solicitar el servicio OpenAI. Solucione el problema o vuelva a intentarlo según la siguiente información.",
+    "PluginMarketIndexNotFound": "Lo sentimos, el servidor no ha podido encontrar el índice del plugin. Por favor, compruebe si la dirección del índice es correcta",
+    "PluginMarketIndexInvalid": "Lo sentimos, la validación del índice del plugin ha fallado. Por favor, compruebe si el formato del archivo de índice es correcto",
+    "PluginMetaNotFound": "Lo sentimos, el plugin no se ha encontrado en el índice. Por favor, compruebe la información de configuración del plugin en el índice",
+    "PluginMetaInvalid": "Lo sentimos, la validación de los metadatos del plugin ha fallado. Compruebe si el formato de los metadatos del complemento es correcto.",
+    "PluginManifestNotFound": "Lo sentimos, el servidor no ha podido encontrar el archivo de manifiesto del plugin (manifest.json). Por favor, compruebe si la dirección del archivo de manifiesto del plugin es correcta",
+    "PluginManifestInvalid": "Lo sentimos, la validación del manifiesto del plugin ha fallado. Por favor, compruebe si el formato del manifiesto es correcto",
+    "PluginApiNotFound": "Lo sentimos, la API no existe en el manifiesto del plugin. Compruebe si el método de solicitud coincide con la API del manifiesto del complemento.",
+    "PluginApiParamsError": "Lo sentimos, la validación de los parámetros de entrada para la solicitud del plugin ha fallado. Por favor, compruebe si los parámetros de entrada coinciden con la descripción de la API",
+    "PluginSettingsInvalid": "Este plugin necesita estar correctamente configurado antes de poder ser utilizado. Por favor, compruebe si su configuración es correcta",
+    "PluginServerError": "La solicitud del servidor del plugin ha devuelto un error. Compruebe el archivo de manifiesto del complemento, la configuración del complemento o la implementación del servidor en función de la información de error que aparece a continuación.",
+    "NoAPIKey": "La clave de API de OpenAI está vacía, por favor, añada una clave de API de OpenAI personalizada."
+  },
+  "stt": {
+    "responseError": "Error en la solicitud de servicio, compruebe la configuración o inténtelo de nuevo."
+  },
+  "tts": {
+    "responseError": "Error en la solicitud de servicio, compruebe la configuración o inténtelo de nuevo."
+  },
+  "unlock": {
+    "apikey": {
+      "title": "Utilizar una clave API personalizada",
+      "description": "Introduce tu API Key de OpenAI para iniciar la conversación. La aplicación no registrará tu API Key.",
+      "addProxyUrl": "Añadir URL de proxy OpenAI (optional)"
+    },
+    "confirm": "Confirmar y reintentar",
+    "password": {
+      "description": "El cifrado de la aplicación ha sido activado por el administrador. Introduzca la contraseña de la aplicación para desbloquearla. Solo es necesario introducir la contraseña una vez.",
+      "title": "Introduzca la contraseña para desbloquear la aplicación",
+      "placeholder": "Introduzca la contraseña"
+    },
+    "closeMessage": "Cerrar mensaje"
+  }
+}

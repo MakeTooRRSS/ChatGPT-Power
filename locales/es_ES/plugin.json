@@ -1,0 +1,129 @@
+{
+  "debug": {
+    "arguments": "Argumentos",
+    "function_call": "Llamada a función",
+    "response": "Respuesta",
+    "off": "Desactivar depuración",
+    "on": "Ver información sobre la invocación de plugins"
+  },
+  "dev": {
+    "confirmDeleteDevPlugin": "¿Está seguro de que desea eliminar este plugin local? Una vez eliminado, no se puede recuperar.",
+    "deleteSuccess": "Plugin eliminado correctamente",
+    "manifest": {
+      "identifier": {
+        "desc": "Identificador único del plugin",
+        "label": "Identificador"
+      },
+      "mode": {
+        "local": "Configuración visual",
+        "local-tooltip": "La configuración visual no es compatible por el momento",
+        "url": "Enlace en línea"
+      },
+      "name": {
+        "desc": "El título del plugin",
+        "label": "Título",
+        "placeholder": "Motor de búsqueda"
+      }
+    },
+    "meta": {
+      "author": {
+        "desc": "El autor del plugin",
+        "label": "Autor"
+      },
+      "avatar": {
+        "desc": "El icono del plugin, puede ser un Emoji o una URL",
+        "label": "Icono"
+      },
+      "description": {
+        "desc": "Descripción del plugin",
+        "label": "Descripción",
+        "placeholder": "Obtener información de los motores de búsqueda"
+      },
+      "formFieldRequired": "Este campo es obligatorio",
+      "homepage": {
+        "desc": "La página de inicio del plugin",
+        "label": "Página de inicio"
+      },
+      "identifier": {
+        "desc": "El identificador único del plugin, sólo admite caracteres alfanuméricos, guión - y guión bajo _.",
+        "errorDuplicate": "El identificador ya está siendo utilizado por otro plugin, por favor modifique el identificador",
+        "label": "Identificador",
+        "pattenErrorMessage": "Sólo se admiten caracteres alfanuméricos, guión - y guión bajo _."
+      },
+      "manifest": {
+        "desc": "ChatGPT Power instalará el plugin usando este enlace",
+        "invalid": "El enlace del manifiesto de entrada no es válido o no cumple la especificación",
+        "label": "URL del manifiesto del plugin",
+        "urlError": "Introduzca una URL válida",
+        "jsonInvalid": "El manifiesto no es válido, resultado de la validación: \n\n {{error}}",
+        "preview": "Vista previa del Manifiesto",
+        "refresh": "Actualizar",
+        "requestError": "No se ha podido solicitar el enlace, por favor, introduzca un enlace válido y compruebe si el enlace permite el acceso entre orígenes."
+      },
+      "title": {
+        "desc": "El título del plugin",
+        "label": "Título",
+        "placeholder": "Motor de búsqueda"
+      }
+    },
+    "metaConfig": "Configuración de los metadatos del plugin",
+    "modalDesc": "Después de añadir un plugin personalizado, se puede utilizar para la verificación de desarrollo de plugins o directamente en las conversaciones. Consulte la documentación de desarrollo de plugins para obtener más información.",
+    "preview": {
+      "card": "Vista previa de la visualización del plugin",
+      "desc": "Vista previa de la descripción del plugin",
+      "title": "Vista previa del nombre del plugin"
+    },
+    "save": "Guardar",
+    "saveSuccess": "La configuración del plugin se ha guardado correctamente",
+    "tabs": {
+      "manifest": "Función Descripción Manifiesto (Manifest)",
+      "meta": "Metadatos del plugin"
+    },
+    "title": "Añadir plugin personalizado",
+    "update": "Actualización",
+    "updateSuccess": "La configuración del plugin se ha actualizado correctamente"
+  },
+  "list": {
+    "item": {
+      "local.config": "Configuración",
+      "local.title": "Local",
+      "deprecated.title": "Borrado"
+    }
+  },
+  "loading": {
+    "plugin": "El plugin se está ejecutando...",
+    "content": "Plugin de llamada..."
+  },
+  "pluginList": "Lista de Plugins",
+  "plugins": {
+    "realtimeWeather": "El tiempo en tiempo real",
+    "searchEngine": "Motor de búsqueda",
+    "undefined": "Detección de plugins...",
+    "websiteCrawler": "Rastreador de sitios web",
+    "unknown": "Detección de plugins en curso..."
+  },
+  "realtimeWeather": {
+    "data": {
+      "date": "Fecha",
+      "daytemp_float": "Temperatura diurna",
+      "dayweather": "Tiempo diurno",
+      "daywind": "Viento diurno",
+      "nighttemp_float": "Temperatura nocturna",
+      "nightweather": "Tiempo nocturno",
+      "nightwind": "Viento nocturno",
+      "week": "Semana"
+    },
+    "title": "Datos meteorológicos para los próximos 7 días ({{city}})",
+    "updateAt": "Última actualización"
+  },
+  "responseData": "Datos de respuesta",
+  "setting": "Configuración del plugin",
+  "settings": {
+    "indexUrl": {
+      "title": "Índice del mercado",
+      "tooltip": "Por el momento no es posible editar"
+    },
+    "modalDesc": "Después de configurar la dirección del mercado de plugins, puede utilizar un mercado de plugins personalizado",
+    "title": "Configurar el mercado de plugins"
+  }
+}
